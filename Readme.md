@@ -1,4 +1,6 @@
+
 How to run:
+
 1. Start Redis
 2. Through redis-cli set config set stop-writes-on-bgsave-error no
 3. Open the project in eclipse. Navigate to App.java. Run as Java Application
@@ -8,7 +10,7 @@ PUT http://localhost:4567/drivers/5/location?latitude=1.237567&longitude=2.34567
 PUT http://localhost:4567/drivers/5/location?latitude=1.237567&longitude=2.34567&isActive=true
 
 
-http://localhost:4567/drivers?latitude=1.238567&longitude=2.34767
+GET http://localhost:4567/drivers?latitude=1.238567&longitude=2.34767
 
 Running Tests:
 Navigate to AppTest.java. Run as Junit Test in Eclipse.
