@@ -7,6 +7,7 @@ How to run:
 4. test on localhost:457/driverDistances
 
 PUT http://localhost:4567/drivers/5/location?latitude=1.237567&longitude=2.34567&isActive=false
+
 PUT http://localhost:4567/drivers/5/location?latitude=1.237567&longitude=2.34567&isActive=true
 
 
